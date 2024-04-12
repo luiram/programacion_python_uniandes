@@ -24,6 +24,6 @@ def ejecutar_porcentaje_grasa() -> None:
     genero = mostrar_menu_genero()
     valor_genero = 5 if genero == 1 else -161
     TMB = calc.calcular_calorias_en_reposo(peso, altura, edad, valor_genero)
-    print(f"La persona tiene una tasa metabólica basal de {TMB}")
+    print(f"La persona tiene una tasa metabólica basal de {TMB} cal")
     
 ejecutar_porcentaje_grasa()

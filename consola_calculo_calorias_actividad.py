@@ -37,7 +37,7 @@ def valor_actividad_por_tipo(actividad: int)->float:
     elif actividad == 3:
         return 1.55
     elif actividad == 4:
-        return 1.72
+        return 1.725
     else:
         return 1.9
 
@@ -50,6 +50,6 @@ def ejecutar_consumo_calorias() -> None:
     valor_actividad = mostrar_actividad_semanal()
     
     TMB_af = calc.calcular_calorias_en_actividad(peso, altura, edad, valor_genero, valor_actividad)
-    print(f"La persona tiene un consumo de calorria semanal de {TMB_af:.2f}")
+    print(f"La persona tiene un consumo de calorria semanal de {TMB_af:.2f} cal")
     
 ejecutar_consumo_calorias()

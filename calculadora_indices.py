@@ -88,9 +88,9 @@ def consumo_calorias_recomendado_para_adelgazar(peso:float, altura:float, edad:i
             str: La cantidad de calorías que la persona debe consumir si desea adelgazar.
     """
     TMB = calcular_calorias_en_reposo(peso,altura,edad,valor_genero)
-    XXX = round(TMB - TMB*0.20)
-    ZZZ = round(TMB - TMB*0.15)
-    return print("Para adelgazar es recomendado que consumas entre ",XXX," y ",ZZZ," calorías al día")
+    XXX = round((TMB - TMB*0.20),2)
+    ZZZ = round((TMB - TMB*0.15),2)
+    return print("Para adelgazar es recomendado que consumas entre: ",XXX," y ",ZZZ," calorías al día")
 
 
 

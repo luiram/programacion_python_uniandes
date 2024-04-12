@@ -26,4 +26,5 @@ def ejecutar_consumo_calorias() -> None:
     calorias = calc.consumo_calorias_recomendado_para_adelgazar(peso, altura, edad, valor_genero)
     print(f"{calorias}")
     
+
 ejecutar_consumo_calorias()
